@@ -24,3 +24,7 @@ Run ``terraform plan`` to see the configuration it creates when executed.
 terraform apply
 ```
 
+```sh
+terraform apply --auto-approve
+```
+
