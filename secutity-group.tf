@@ -6,7 +6,6 @@ data "aws_availability_zones" "available" {}
 
 locals {
   cluster_name = "yoga-eks-${random_string.suffix.result}"
-    description = "a unique name to append to the cluster name"
 }
 
 resource "random_string" "suffix" {
